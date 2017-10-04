@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=submissionId\ customerId\ customer\ description\ date
+comment0.target=Submission(int,\ int,\ Customer,\ java.lang.String,\ Date)
+comment1.params=
+comment1.target=Customer\ getCustomer()
+comment2.params=
+comment2.target=int\ getSubmissionId()
+comment3.params=
+comment3.target=boolean\ isArchivable()
+comment4.params=
+comment4.target=java.lang.String\ getArchiveData()
+numComments=5

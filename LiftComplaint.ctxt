@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=submissionId\ customerId\ customer\ description\ lift\ floor\ date
+comment0.target=LiftComplaint(int,\ int,\ Customer,\ java.lang.String,\ java.lang.String,\ int,\ Date)
+numComments=1

@@ -1,0 +1,35 @@
+#BlueJ class context
+comment0.params=d\ m\ y
+comment0.target=Date(int,\ int,\ int)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Date\n\n\ Sets\ the\ Date\ fields\ to\ (d,\ m,\ y)\ if\ these\ form\ a\ valid\ date,\ otherwise\ Date\ defaults\ to\ 01/01/1900.\n\ @param\ d\ -\ the\ day\ part\ of\ the\ date\ (1\ &lt\=\ d\ &lt\=\ 31,\ depending\ on\ the\ month\ and\ (possibly\!)\ year).\n\ @param\ m\ -\ the\ month\ part\ of\ the\ date\ (1\ &lt\=\ m\ &lt\=\ 12).\n\ @param\ y\ -\ the\ year\ part\ of\ the\ date\ (y\ &gt\=\ 1900).\n
+comment1.params=other
+comment1.target=boolean\ equals(Date)
+comment1.text=\ Compares\ two\ dates\ for\ equality\n\ \n\ @return\ whether\ 'this'\ and\ 'other'\ parameter\ represent\ the\ same\ date\n
+comment10.params=d\ m\ y
+comment10.target=boolean\ isValidDate(int,\ int,\ int)
+comment11.params=month\ year
+comment11.target=int\ monthLength(int,\ int)
+comment12.params=year
+comment12.target=int\ yearLength(int)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\ Returns\ string\ representation\ of\ the\ date\n\ \n\ @return\ the\ date\ as\ a\ String,\ format\ "09/11/2002"\n
+comment3.params=date
+comment3.target=boolean\ isLater(Date)
+comment3.text=\ is\ 'this'\ after/later\ than\ 'date'?\n\ \n\ @return\ whether\ this\ date\ comes\ after\ parameter\ date\n
+comment4.params=other
+comment4.target=int\ compareTo(Date)
+comment5.params=date
+comment5.target=int\ daysLater(Date)
+comment5.text=\ returns\ how\ many\ days\ later\ 'this'\ date\ is\ than\ parameter\ 'date'\ \n\ \ For\ example,\ if\:\n\ \ \ \ \ \ d1\ \=\ new\ Date\ (31,\ 12,\ 2004),\n\ \ \ \ \ \ d2\ \=\ new\ Date\ (5,\ 6,\ 2005)\n\ \ then\n\ \ \ \ \ \ d2.daysLater\ (d1)\ returns\ 157\n\ \ \ \ \ \ \n\ Will\ return\ negative\ number\ if\ 'date'\ is\ after\ 'this'.\n\ \n\ @return\ number\ of\ days\ this\ date\ is\ later\ than\ parameter\ date\n
+comment6.params=numberOfDays
+comment6.target=Date\ addDays(int)
+comment6.text=\ Return\ the\ date\ 'numberOfDays'\ after\ this\ one.\n\ \n\ @param\ numberOfDays\:\ the\ number\ of\ days\ to\ be\ added\n\ @return\ a\ new\ date\ numberOfDays\ later\n\ \n\ Example\:\ \ Date\ d1\ \=\ new\ Date\ (14,\ 7,\ 2004)\n\ \ \ \ \ \ \ \ \ \ \ Date\ d2\ \=\ d1.addDays\ (18);\ \ //\ d2.toString()\ is\ "01/08/2004"\n\ \ \ \ \ \ \ \ \ \ \ \n\ precondition\:\ numberOfDays\ >\=\ 0\n
+comment7.params=i
+comment7.target=java.lang.String\ as2Digits(int)
+comment7.text=Internal\ method\ to\ add\ a\ leading\ zero\ if\ necessary.
+comment8.params=
+comment8.target=int\ daysSince1_1_1900()
+comment9.params=y
+comment9.target=boolean\ isLeapYear(int)
+numComments=13
